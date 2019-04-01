@@ -1,4 +1,3 @@
-# py_Learning
 Here are the notes and follow-up codes on python learning
 
 0. data structure
