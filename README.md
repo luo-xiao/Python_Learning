@@ -4,3 +4,4 @@ Here are the notes and follow-up codes on python learning
 1. function & module
 2. debug with pycharm
 3. pickle object
+4. statistics
