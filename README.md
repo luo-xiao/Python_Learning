@@ -5,3 +5,5 @@ Here are the notes and follow-up codes on python learning
 2. debug with pycharm
 3. pickle object
 4. statistics
+
+5. basics recap (https://www.w3resource.com/python-exercises/python-basic-exercises.php)
