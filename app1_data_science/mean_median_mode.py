@@ -17,6 +17,3 @@ weight = '1 2 3 4 5'
 w = list(map(int, weight.strip().split()))  # map: use function for each element in a list
 weighted_mean = sum([a*b for a, b in zip(data2, w)]) / sum(w)   # formula
 print(format(weighted_mean, '.1f'))         # output with 1 decimal
-
-
-#

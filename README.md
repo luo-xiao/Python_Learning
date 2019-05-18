@@ -1,9 +1,7 @@
 Here are the notes and follow-up codes on python learning
 
-0. data structure
-1. function & module
-2. debug with pycharm
-3. pickle object
-4. statistics
+0. basics recap (https://www.w3resource.com/python-exercises/python-basic-exercises.php)
+1. data structure
+2. function & module
 
-5. basics recap (https://www.w3resource.com/python-exercises/python-basic-exercises.php)
+application - data science
