@@ -12,3 +12,13 @@ def func1(x, *args, y):
   
 def func2(x, *args, y, **kwargs):
   pass   # valid
+
+
+# To accept only certain number of keyword arguments
+def recv(maxsize, *, block):
+  'Receives a message'
+  pass
+
+recv(1024, True)        # TypeError
+recv(1024, block=True)  # OK
+
