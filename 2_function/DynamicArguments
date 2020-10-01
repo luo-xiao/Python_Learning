@@ -1,0 +1,14 @@
+# To accept any number of positional arguments, use *
+# To accept any number of keyword arguments, use **
+
+# or use * and ** together for both types of arguments
+def anyargs(*args, **kwargs):
+  print(args)    # a tuple
+  print(kwargs)  # a dict
+  
+# about the position
+def func1(x, *args, y):
+  pass   # invalid syntax, since * can only appear as the last positional argument
+  
+def func2(x, *args, y, **kwargs):
+  pass   # valid
