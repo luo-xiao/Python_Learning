@@ -1,0 +1,5 @@
+# return multiple values by returning a tuple
+def myfun():
+  return 1, 2, 3
+  
+a, b, c = myfun() 
