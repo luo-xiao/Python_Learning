@@ -1,0 +1,7 @@
+def add(x:int, y:int) -> int:
+  return x + y
+  
+# annotation doesn't do type check, but for better documentation
+
+help(add)  # display documentation for the function
+
