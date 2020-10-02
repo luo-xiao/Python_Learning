@@ -1,0 +1,13 @@
+# Simple functions can be defined by "lambda" expression
+add = lambda x, y: x + y
+
+# "lambda" is typically used in the context of other operations
+names = ['David Beazley', 'Brian Jones', 'Raymond Hettinger', 'Ned Batchelder']
+sorted(names, key=lambda name: name.split()[-1].lower())
+
+# notice: the variable value in "lambda" is bound at runtime, not at definition time
+# if we want to capture the variable value at definition:
+x = l0
+# a = lambda y: x + y        # not capture the defined value
+add = lambda y, x=x: x + y
+x = 20
