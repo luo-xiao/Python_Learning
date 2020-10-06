@@ -1,0 +1,26 @@
+# tensorflow core: libs of array manipulations && helper functions for ML
+
+# https://www.youtube.com/watch?v=pnSBZ6TEVjY&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=45
+### get abstract tensor (define computational graph)
+import tensorflow as tf
+x1 = tf.constant(5) 
+x2 = tf.constant(6)
+result = x1 * x2         # less efficient
+result = tf.mul(x1,x2)   
+
+x1 = tf.constant([5]) 
+x2 = tf.constant([6])
+result = tf.matmul(x1,x2)
+print(result)  # no real results
+
+
+### calculate via running a session
+sess = tf.Session()
+print(sess.run(result))
+sess.close()
+
+# or in another way
+with tf.Session() as sess:
+    output = sess.run(result)
+    print(sess.run(result))
+print(output) # able to get ourput from session
