@@ -4,4 +4,6 @@ Here are the notes and follow-up codes on python learning
 1. data structure
 2. function & module
 
+
 application - data science
+application - machine learning with tensorflow
