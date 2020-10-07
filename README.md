@@ -6,5 +6,4 @@ Here are the notes and follow-up codes on python learning
 
 
 application - data science
-
 application - machine learning with tensorflow
