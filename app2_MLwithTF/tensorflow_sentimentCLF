@@ -1,0 +1,24 @@
+# https://pythonprogramming.net/using-our-own-data-tensorflow-deep-learning-tutorial/?completed=/tensorflow-neural-network-session-machine-learning-tutorial/
+# train NN to classify positiven & negative sentiments with own data
+# positive sentences: https://pythonprogramming.net/static/downloads/machine-learning-data/pos.txt (~5000 utt)
+# negative sentences: https://pythonprogramming.net/static/downloads/machine-learning-data/neg.txt
+'''
+for FFNN:
+- input size must be unified
+- words must be indexed, so that they can be represented by vectors --> lexicon
+'''
+
+import nltk # need pip & download first
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+import numpy as np
+import random
+import pickle
+from collecitns import Counter
+
+lemmatizer = WordNetLemmatizer()
+hm_lines = 10000000
+# MemoryError rises when RAM is run out
+
+
+# https://pythonprogramming.net/preprocessing-tensorflow-deep-learning-tutorial/?completed=/using-our-own-data-tensorflow-deep-learning-tutorial/
