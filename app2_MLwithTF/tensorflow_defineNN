@@ -65,14 +65,20 @@ def neural_network_model(data):
     
 def train_neural_network(x):
     prediction = neural_network_model(x)
-    cost = tf.reduce_mean( tf.nn.sorfmax_cross_entropy_with_logits(prediction,y) )
+    # old version
+    # cost = tf.reduce_mean( tf.nn.sorfmax_cross_entropy_with_logits(prediction,y) )
+    # new version
+    cost = tf.reduce_mean( tf.nn.sorfmax_cross_entropy_with_logits(logits=prediction, labels=y) )
     optimizer = tf.train.AdamOptimizer().minimize(cost)  # learning_rate = 0.001
     
     # cycles feed forward + backprop
     hm_epochs = 10  # hm=how many
     
     with tf.Session() as sess:
-        sess.run(tf.initialize_all_variables())
+        # old version
+        # sess.run(tf.initialize_all_variables())
+        # new version
+        sess.run(tf.global_variables_initializer())
         
         for epoch in range(hm_epochs):
             epoch_loss = 0
