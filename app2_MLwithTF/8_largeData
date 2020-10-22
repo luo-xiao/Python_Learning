@@ -1,0 +1,16 @@
+# https://pythonprogramming.net/data-size-example-tensorflow-deep-learning-tutorial/?completed=/train-test-tensorflow-deep-learning-tutorial/
+# dataset: Sentiment140 (1.6 million samples of positive and negative sentiment)
+
+# key points in pre-process large data for training:
+# 1. read file in segments of 10mb at a time with buffering (instead of reading the entire file)
+# 2. save progress as check-point to continue from where we left off (because training takes much longer)
+
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+import pickle
+import numpy as np
+import pandas as pd
+
+lemmatizer = WordNetLemmatizer()
+
