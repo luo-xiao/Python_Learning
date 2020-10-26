@@ -5,6 +5,10 @@ Here are the notes and follow-up codes on python learning
 2. function & module
 
 
-application - data science
+Application Scenarios:
 
-application - machine learning with tensorflow
+app1 - data science
+
+app2 - machine learning with tensorflow
+
+app3 - automatic speech processing
