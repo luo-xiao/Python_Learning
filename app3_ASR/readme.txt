@@ -1,2 +1,10 @@
-This folder contains the implementations of ASR system:
-1. Audio Data Analysis and Visualization
+This folder contains the implementations of ASR system, following the demo session of book: Speech Recognition A-Z with Hands-On, by Learnkart Technology Private Limited.
+
+[Chap1: Speech and Its Types]
+1. Audio Data Analysis and Visualization  
+   -> librosa: play audio, plot waveform & spectrogram
+2. Digitizing and Recording of Speech Signal
+   -> SpeechRecognition: speech to text
+3. Human Speech Production
+   -> gtts: text to speech
+   
