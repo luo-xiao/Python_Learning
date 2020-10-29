@@ -8,3 +8,7 @@ This folder contains the implementations of ASR system, following the demo sessi
 3. Human Speech Production
    -> gtts: text to speech
    
+[Chap2: Automated Speech Recognition]
+1. Sampling Theorem
+   -> numpy: calculation of sampling time and wave function
+   -> matplotlib: plot
