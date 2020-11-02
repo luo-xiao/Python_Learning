@@ -12,3 +12,5 @@ This folder contains the implementations of ASR system, following the demo sessi
 1. Sampling Theorem
    -> numpy: calculation of sampling time and wave function
    -> matplotlib: plot
+2. Feature Extraction
+   -> librosa: spectrogram, zero crossing, spectral centroid, spectral roll-off, MFCC
