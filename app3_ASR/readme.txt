@@ -14,3 +14,11 @@ This folder contains the implementations of ASR system, following the demo sessi
    -> matplotlib: plot
 2. Feature Extraction
    -> librosa: spectrogram, zero crossing, spectral centroid, spectral roll-off, MFCC
+3. Force Alignment Expectation
+   -> numpy: generate arrays of numbers
+   -> scipy.stats: simulate the data distributions
+   -> matplotlib: plot data distributions
+4. Spectrum Analysis
+   -> numpy: generate arrays of numbers
+   -> pylab: plot
+   -> scipy: time to frequency domain transformation
