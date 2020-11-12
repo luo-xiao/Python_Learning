@@ -22,3 +22,7 @@ This folder contains the implementations of ASR system, following the demo sessi
    -> numpy: generate arrays of numbers
    -> pylab: plot
    -> scipy: time to frequency domain transformation
+5. Speech to Text Model
+   -> librosa, scipy, numpy, matplotlib: read, visualize & preprocess speech data (resample, select)
+   -> sklearn: further process data to better fit trainign (encode, split train and test)
+   -> keras: build & train model
