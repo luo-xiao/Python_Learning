@@ -12,3 +12,5 @@ app1 - data science
 app2 - machine learning with tensorflow
 
 app3 - automatic speech processing
+
+app4 - housing price predicting system
