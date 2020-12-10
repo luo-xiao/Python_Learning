@@ -13,4 +13,6 @@ app2 - machine learning with tensorflow
 
 app3 - automatic speech processing
 
-app4 - housing price predicting system
+app4 - [regression] housing price predicting system
+
+app5 - [classification] MNIST classification
