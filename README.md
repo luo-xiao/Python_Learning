@@ -16,3 +16,5 @@ app3 - automatic speech processing
 app4 - [regression] housing price predicting system
 
 app5 - [classification] MNIST classification
+
+app6 - [math] probability and statistics
